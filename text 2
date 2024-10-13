@@ -1,0 +1,54 @@
+{
+  "conditions": [
+    {
+      "type": "exactDate",
+      "date": "2024-10-14",
+      "start": "",
+      "end": "",
+      "ifTrue": [
+        {
+          "type": "switch",
+          "id": 27,
+          "state": "true"
+        },
+        {
+          "type": "switch",
+          "id": 28,
+          "state": "false"
+        },
+        {
+          "type": "variable",
+          "id": 27,
+          "state": "1"
+        },
+        {
+          "type": "variable",
+          "id": 28,
+          "state": "2"
+        }
+      ],
+      "ifFalse": [
+        {
+          "type": "switch",
+          "id": 29,
+          "state": "true"
+        },
+        {
+          "type": "switch",
+          "id": 30,
+          "state": "false"
+        },
+        {
+          "type": "variable",
+          "id": 29,
+          "state": "1"
+        },
+        {
+          "type": "variable",
+          "id": 30,
+          "state": "2"
+        }
+      ]
+    }
+  ]
+}
